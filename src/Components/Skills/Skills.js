@@ -8,7 +8,7 @@ const Skills = () => {
             <hr className="w-25 m-auto my-3"></hr>
 
             <div className="row">
-                <div className="col-4 my-3">
+                <div className="col-sm-12 col-lg-4 my-3">
                     <h5>My Focus</h5>
                     <hr></hr>
                     <ul className="list-group">
@@ -19,7 +19,7 @@ const Skills = () => {
                         <li className="list-group-item">Laravel</li>
                     </ul>
                 </div>
-                <div className="col-8 my-3">
+                <div className="col-sm-12 col-lg-8 my-3">
                     <ProgressBar ratio="75" />
                     <ProgressBar ratio="67" />
                     <ProgressBar ratio="78" />
